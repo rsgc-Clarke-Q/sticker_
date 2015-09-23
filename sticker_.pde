@@ -21,16 +21,16 @@ void draw() {
   line(115, 90, 260, 290); //these two are the diagnol lines through the middle
 
   line(115, 90, 165, 90);
-  line(260, 90, 225, 90);// the two lines coming from the top going left and right
+  line(260, 90, 225, 90);  // the two lines coming from the top going left and right
 
   line(225, 90, 225, 175); //the line droping from the top right going into the diagnot line
 
   line(225, 175, 165, 90); // the diagnol line hat connects the top half of the N
 
   line(195, 290, 245, 290);
-  line(100, 290, 135, 290);// the two lines going lleft to right on the bottom
-  
-  line(135, 290, 135, 205);//the  line going up connecting to the diagnol line
-  
+  line(100, 290, 135, 290); // the two lines going lleft to right on the bottom
+
+  line(135, 290, 135, 205); //the  line going up connecting to the diagnol line
+
   line(135, 205, 195, 290); //the diagnol line connecting the bottom half of the N
 }
