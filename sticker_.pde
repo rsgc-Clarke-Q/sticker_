@@ -2,6 +2,9 @@ void setup() {
   size(360, 380);
 }
 void draw() {
+  
+  background(0,0,102);
+ 
   noStroke();
   fill(0, 0, 0);
   ellipse(180, 190, 300, 300); // back of the sticker
@@ -31,7 +34,7 @@ vertex(135,205);
 vertex(195,290);
 
 vertex(195,290);
-vertex(240,290); 
+vertex(245,290); 
 endShape(CLOSE); //all of these lines are for the bottom of the N 
                 //and what the vertex does is connect the lines to make a solid shape
 
